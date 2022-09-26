@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <title>Dogs</title>
+    <link rel="shortcut icon" href="dog.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <header id="h_header1">
+    </header>
+    <div class="row">
+        <label for="count" id="h_1">Выберите количество фотографий</label>
+        <input id="count" type="number" class="form-control" required min=1 step=1  value=3>
+
+        <label for="breeds" id="h_2">Выберите породу</label>
+        <select id="breeds" class="form-control">
+            <option value="" selected></option>
+        </select>
+
+        <button >
+            <span id="h_3">Показать</span>
+        </button>
+        <hr>
+        <ul id="content">
+        </ul>
+    </div>
+</body>
+<script lang="javascript" src="script.js"></script>
+</html>

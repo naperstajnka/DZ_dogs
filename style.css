@@ -1,0 +1,147 @@
+
+body * {
+    font-family: 'Alike', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+}
+
+#content {
+    width: 100%;
+    left: 0;
+    margin-top: 555px;
+    padding: 5px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#content li {
+    list-style: none;
+    background-image: none;
+    background-position:0;
+    margin: 5px;
+
+}
+
+img {
+    max-width: 400px;
+    max-height: 200px;
+    border: 2px solid #679B00;
+    border-radius: 8px;
+}
+
+#h_header1 {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0;
+    top: 0;
+    background: #679B00;
+}
+
+#h_1 {
+    position: absolute;
+    width: 454px;
+    height: 25px;
+    left: calc(50% - 454px / 2);
+    top: 134px;
+
+    font-family: 'Alike', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #3C3B3B;
+}
+
+#h_2 {
+    position: absolute;
+    width: 454px;
+    height: 25px;
+    left: calc(50% - 454px / 2);
+    top: 254px;
+    color: #3C3B3B;
+}
+
+#count {
+    box-sizing: border-box;
+    position: absolute;
+    width: 500px;
+    height: 60px;
+    left: calc(50% - 500px / 2);
+    top: 168px;
+}
+
+#breeds {
+    box-sizing: border-box;
+    position: absolute;
+    width: 500px;
+    height: 60px;
+    left: calc(50% - 500px / 2);
+    top: 288px;
+    background: #679B00;
+    mix-blend-mode: normal;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+.select-sort-mobile {
+    /* for Firefox */
+    -moz-appearance: none;
+    /* for Chrome */
+    -webkit-appearance: none;
+}
+
+.select-sort-mobile::-ms-expand {
+    /* IE */
+    display: none;
+}
+
+option {
+    background: #ffffff;
+    color: #3C3B3B;
+}
+
+button {
+    box-sizing: border-box;
+    position: absolute;
+    width: 211px;
+    height: 60px;
+    left: calc(50% - 211px / 2 - 0.5px);
+    top: 385px;
+    background: #679B00;
+    mix-blend-mode: normal;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    /* курсор - палец */
+    cursor: pointer;
+}
+
+button:hover {
+    background: #476B00;
+}
+
+#h_3 {
+    position: absolute;
+    width: 211px;
+    height: 20px;
+    left: calc(50% - 211px / 2 + 0.5px);
+    top: 16px;
+    color: #ffffff;
+}
+
+hr {
+    position: absolute;
+    width: 460px;
+    height: 0;
+    left: calc(50% - 460px / 2);
+    top: 486px;
+    border: 1px solid #476B00;
+}
